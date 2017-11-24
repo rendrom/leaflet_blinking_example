@@ -1,0 +1,26 @@
+{
+  "name": "leaflet_blinking_example",
+  "version": "0.0.0",
+  "description": "This example shows the flashing of controls\r with a large number of long-loaded layers in Google Chrome.\r The number of layers after which blinks start differently on different computers.",
+  "scripts": {
+    "start": "http-server ./ -a localhost -p 8080 -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rendrom/leaflet_blinking_example.git"
+  },
+  "keywords": [
+    "leaflet",
+    "issue",
+    "blinking"
+  ],
+  "author": "rendrom@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rendrom/leaflet_blinking_example/issues"
+  },
+  "homepage": "https://github.com/rendrom/leaflet_blinking_example#readme",
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  }
+}
